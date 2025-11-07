@@ -6,7 +6,14 @@ proto_list4 = "Comma-spaces, might, require, typing, caution"
 strings = [proto_list1, proto_list2, proto_list3, proto_list4]
 
 # a) Use the 'in' method to check to see if the words in each string are separated by commas (,), semicolons (;) or just spaces.
-
+if "," in strings:
+    print("There's a comma in there")
+elif ";":
+    print("There's a semicolon in there")
+elif " ":
+    print("There's a space in there")
+else:
+    print("This was a trick question")
 
 # b) If the string uses commas to separate the words, split it into an array, reverse the entries, and then join the array into a new comma separated string.
 
