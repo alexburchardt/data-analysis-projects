@@ -1,9 +1,21 @@
 # Part 1 A -- Make a Line
-
+def make_line(size):
+    line=""
+    for i in range(size):
+        line+= "#"
+    return line
+#print(make_line(5))
 
 
 # Part 1 B -- Make a Square
 # create a function using your make_line function to code a square
+def make_square(size):
+    for i in range(size):
+        print (make_line(size))
+print(make_square(5))
+
+
+
 
 
 
